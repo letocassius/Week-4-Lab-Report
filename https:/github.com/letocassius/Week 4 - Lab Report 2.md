@@ -1,7 +1,7 @@
-# week 4 lab report 2
+# **week 4 lab report 2**
 ## Yichen Le
 
-# **Original Code And Test File**
+# Original Code And Test File
 > Original Code:
 
 ```
@@ -44,5 +44,8 @@ public class MarkdownParse {
 [a link!](https://something.com)
 [another link!](some-page.html)
 ```
+
+## Bug #1
+
 ## Code #1
 
