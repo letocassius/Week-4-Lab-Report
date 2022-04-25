@@ -59,6 +59,8 @@ Since we wana make sure what gets extracted from the brackets is a link and not 
 >This is the [link](test2.md) to the first test file that I wrote.
 >Symptom: after about 30 seconds the program stop becasue of a OutOfMemoryError. This is caused becaue I added some random line after the last link, so now the program has no way to exsit the while loop. 
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/64039891/165016120-6df1948a-c97c-49c9-bbbc-0270ebdeaa00.png">
-## Code Improvement #2
 
+## Code Improvement #2
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/64039891/165016430-5f49e0dd-a503-40f0-953c-5a641913ac85.png">
+The bug occurs because the program has no way to exit the while loop when there is some line after the las t link. Therefore I have added a break command so when the file does not end with a link. By breaking the loop when index is -1. The program will still be able to exit the while loop and execute the program.
 
