@@ -46,9 +46,11 @@ public class MarkdownParse {
 ```
 
 ## Bug #1
->This is the [link](Test1.md) to the first test file that I wrote.
+>This is the [link](test1.md) to the first test file that I wrote.
 >Symptom: the program has printed the letters that I put in the ( ) wich is not a link. 
 <img width="671" alt="image" src="https://user-images.githubusercontent.com/64039891/165014403-f7d17db4-76b4-45fc-8517-3f51fe4587dd.png">
 
 
-## Code #1
+## Code Improvement #1
+<img width="788" alt="image" src="https://user-images.githubusercontent.com/64039891/165015145-550fdd41-6d55-4aef-a731-52404801391d.png">
+Since we wana make sure what gets extracted from the brackets is a link and not some randome letters. I have modified the code so it is now looking for "](" in stead of "(". Now we are searching for "](" all at once instead of doing to seperately. By doing this we could make sure that the methods extracts a correct link. 
