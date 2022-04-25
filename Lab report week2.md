@@ -46,5 +46,9 @@ public class MarkdownParse {
 ```
 
 ## Bug #1
+>This is the [link](Test1.md) to the first test file that I wrote.
+>Symptom: the program has printed the letters that I put in the ( ) wich is not a link. 
+<img width="671" alt="image" src="https://user-images.githubusercontent.com/64039891/165014403-f7d17db4-76b4-45fc-8517-3f51fe4587dd.png">
+
 
 ## Code #1
