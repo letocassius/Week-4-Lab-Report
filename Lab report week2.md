@@ -70,4 +70,5 @@ The bug occurs because the program has no way to exit the while loop when there 
 This time I have added a image in to the file, and the program has taken the image information as a link and printed it out.
 
 ## Code Improvement #3
-
+<img width="755" alt="image" src="https://user-images.githubusercontent.com/64039891/165018273-84ee6f0c-eb7f-4f26-b3f1-7113147e7521.png">
+The bug occurs since the program takes the image as a link and added it to the arraylist. I have implements the methods so that is is going to chekc if the line is staring with and "!", and if it is, the method is not going to add this peice to the arraylist. By doing this,we could make sure that only a true link in going to be added to the arraylist and gets printed out. 
