@@ -54,3 +54,11 @@ public class MarkdownParse {
 ## Code Improvement #1
 <img width="788" alt="image" src="https://user-images.githubusercontent.com/64039891/165015145-550fdd41-6d55-4aef-a731-52404801391d.png">
 Since we wana make sure what gets extracted from the brackets is a link and not some randome letters. I have modified the code so it is now looking for "](" in stead of "(". Now we are searching for "](" all at once instead of doing to seperately. By doing this we could make sure that the methods extracts a correct link. 
+
+## Bug #2
+>This is the [link](test2.md) to the first test file that I wrote.
+>Symptom: after about 30 seconds the program stop becasue of a OutOfMemoryError. This is caused becaue I added some random line after the last link, so now the program has no way to exsit the while loop. 
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/64039891/165016120-6df1948a-c97c-49c9-bbbc-0270ebdeaa00.png">
+## Code Improvement #2
+
+
