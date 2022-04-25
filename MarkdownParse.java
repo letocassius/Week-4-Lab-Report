@@ -11,6 +11,8 @@ public class MarkdownParse {
     // the next )
     int currentIndex = 0;
     while(currentIndex < markdown.length()) {
+      int exclamation = markdown.indexOf("!", currentIndex);
+
       int nextOpenBracket = markdown.indexOf("[", currentIndex);
       if (nextOpenBracket==-1) break;
       int nextCloseBracket = markdown.indexOf("](", nextOpenBracket);
@@ -19,6 +21,9 @@ public class MarkdownParse {
       int closeParen = markdown.indexOf(")", nextCloseBracket);
 
       if(closeParen==-1) break;
+
+      if(!markdown. substring(nextCloseBracket + 2, closeParen). contains("")
+      && nextCloseBracket!=nextOpenBracket-1)
       toReturn.add(markdown.substring(nextCloseBracket + 2, closeParen));
       currentIndex = closeParen + 1;
     }
